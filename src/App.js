@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Glados from './components/glados/Glados'
+import VirtualDesktop from './components/VirtualDesktop/VirtualDesktop'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Glados />
+        <VirtualDesktop />
       </div>
     );
   }

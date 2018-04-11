@@ -1,0 +1,67 @@
+
+.open-window-container {
+  position: relative;
+  top: 15%;
+  left: 15%;
+  height:475px;
+  width:750px;
+  position: absolute;
+  background-image: url('../../assets/finder-window.png');
+  background-size: cover;
+}
+
+.int-window-container {
+
+}
+
+.close-button {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  top: 3px;
+  left: 6px;
+  filter:opacity(.5);
+}
+
+.close-button:hover {
+  cursor:pointer;
+}
+
+.window-title {
+  position: relative;
+  width: 300px;
+  margin-left: 225px;
+  z-index: 10;
+  color:black;
+  font-family: 'Arimo', sans-serif;
+  top: -11px;
+  left: 0;
+  /* background-color: white; */
+}
+
+#first-fflickr {
+  position: relative;
+  top: 50px;
+  left: 258px;
+  list-style: none;
+}
+
+#second-fflickr {
+  position:relative;
+  top: 50px;
+  left: 0 ;
+
+}
+
+#third-fflickr {
+  position:relative;
+  top: 0;
+  left: 0 ;
+
+}
+
+.default-position {
+  position:relative;
+  top: 100px;
+  left: 100px;
+}

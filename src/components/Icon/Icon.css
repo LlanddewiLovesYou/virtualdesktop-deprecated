@@ -1,0 +1,42 @@
+.div--iconwrapper {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+.img--icon {
+  height: 80px;
+  width: 80px;
+}
+
+.img--icon:hover {
+  max-height: 100px;
+  max-width: 100px;
+  cursor: pointer;
+}
+
+.div--filename {
+  min-width: 80px;
+  width: auto;
+  background-color: lightblue;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-family: 'Arimo', sans-serif;
+  /* font-weight: bold; */
+  padding: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+  text-decoration: none;
+}
+
+.default-position {
+  position:relative;
+  top: 100px;
+  left: 100px;
+}
+
+.test {
+  position: absolute;
+  z-index: 10;
+  cursor:pointer;
+}

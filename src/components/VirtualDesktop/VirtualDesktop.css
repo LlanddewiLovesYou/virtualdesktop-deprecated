@@ -1,0 +1,9 @@
+.desktop-background {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../../assets/desktop.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  position: relative;
+}

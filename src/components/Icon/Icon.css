@@ -29,11 +29,11 @@
   text-decoration: none;
 }
 
-.default-position {
-  position:relative;
+/* .default-position {
+  position: absolute;
   top: 100px;
   left: 100px;
-}
+} */
 
 .test {
   position: absolute;

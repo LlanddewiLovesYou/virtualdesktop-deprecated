@@ -10,10 +10,10 @@ export default class Fflickr extends React.Component {
   render() {
     return (
       <div className='test'>
-        <a id='fflickr-1' href='https://github.com/LlanddewiLovesYou/Fflickr'>
+        <a id='fflickr-1' href='https://github.com/LlanddewiLovesYou/Fflickr' target='_blank'>
           <Icon fileName='.git' img={folder}/>
         </a>
-        <a id='fflickr-2' href='https://fflickr.herokuapp.com/'>
+        <a id='fflickr-2' href='https://fflickr.herokuapp.com/' target='_blank'>
           <Icon fileName='Fflickr.com' img={chrome}/>
         </a>
         <div id='fflickr-3' onClick=''>

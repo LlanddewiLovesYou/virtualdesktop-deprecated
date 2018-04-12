@@ -10,7 +10,7 @@ export default class OpenWindow extends React.Component {
 
   render() {
     return (
-      <div className='open-window-container'>
+      <div className='open-window-container' id={this.props.img}>
         <div className='close-button' onClick={this.props.close}></div>
           <div className='window-title'>{this.props.title}</div>
           <div>{this.props.innerComponent}</div>

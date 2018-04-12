@@ -6,4 +6,23 @@
   background-position: center top;
   background-size: cover;
   position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#fflickr-icon {
+  position: absolute;
+  top: 150px
+  /* grid-row: 3;
+  grid-column: 3; */
+}
+
+#resume-window {
+  height:740px;
+  width: 1020px;
+  background-image: url('../../assets/resume.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
 }

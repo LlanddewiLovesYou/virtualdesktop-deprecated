@@ -6,19 +6,51 @@
   background-position: center top;
   background-size: cover;
   position: relative;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 #fflickr-icon {
   position: absolute;
   top: 150px
-  /* grid-row: 3;
-  grid-column: 3; */
+}
+
+#penultimate-icon {
+  position: absolute;
+  top: 300px;
+  left: -20px;
+}
+
+#yayquery-icon {
+  position: absolute;
+  top: 450px;
+  left: 0px;
+}
+
+#mackcali-icon {
+  position: absolute;
+  left: 150px;
+  top: 150px
+}
+
+#readme-icon {
+  position: absolute;
+  left: 150px;
+}
+
+#itunes-icon {
+  position: absolute;
+  top: 450px;
+  left: 150px;
+}
+
+#glados-icon {
+  position: absolute;
+  top: 300px;
+  left: 150px;
 }
 
 #resume-window {
+  top: 10%;
+  left: 25%;
   height:740px;
   width: 1020px;
   background-image: url('../../assets/resume.png');

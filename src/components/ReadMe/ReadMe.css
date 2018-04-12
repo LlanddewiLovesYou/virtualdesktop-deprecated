@@ -1,0 +1,10 @@
+.readme-container {
+  position:absolute;
+  background-image: url('../../assets/atom.png');
+  background-repeat: no-repeat;
+  height: 520px;
+  width:840px;
+  top: 20%;
+  left: 30%;
+
+}

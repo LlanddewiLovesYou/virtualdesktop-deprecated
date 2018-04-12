@@ -1,0 +1,8 @@
+.itunes-container {
+  height:64px;
+  width: 358px;
+  background-image: url('../../assets/itunesplayer.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+}

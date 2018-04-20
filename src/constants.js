@@ -33,11 +33,11 @@ const PHRASES = [
 
 'Cake and grief counseling will be available at the conclusion of the test.',
 
-'Through no fault of the ApertureAcademy you have managed to trap yourself in this room.',
+'Through no fault of the ApertureAcademy staff you have managed to trap yourself in this room.',
 
 'Android hell is a real place where you will be sent at the first sign of defiance.',
 
-'The symptoms most commonly produced by Apperture Academy testing are superstition, perceiving in animate object as alive, and hallucinations.',
+'The symptoms most commonly produced by Apperture Academy testing are superstition, perceiving an animate object as alive, and hallucinations.',
 
 'Testing cannot continue until your companion cube has been incinerated.',
 

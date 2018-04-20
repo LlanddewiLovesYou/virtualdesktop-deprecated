@@ -1,8 +1,32 @@
 .itunes-container {
-  height:64px;
+  height: 64px;
+  width: 358px;
+  background-image: url('../../assets/itunesplayerpaused.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  z-index: 20
+}
+
+.itunes-container-playing {
+  height: 64px;
   width: 358px;
   background-image: url('../../assets/itunesplayer.png');
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
+  top: 30%;
+  left: 60%;
+  z-index: 20
+}
+
+.play-button {
+
+  height: 30px;
+  width: 30px;
+  position: absolute;
+    top: 10px;
+    left: 58px;
 }

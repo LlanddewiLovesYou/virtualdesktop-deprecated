@@ -17,7 +17,7 @@ export default class Penultimate extends React.Component {
         <a id='penultimate-2' href='http://iandelduca.com/PenultimateFantasy' target='_blank'>
           <Icon fileName='Penultimate.exe' img={chrome}/>
         </a>
-        <div id='penultimate-3' onClick=''>
+        <div id='penultimate-3' onClick={this.props.open}>
           <Icon  fileName='README' img={markdown}/>
         </div>
       </div>

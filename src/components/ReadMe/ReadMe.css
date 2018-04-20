@@ -6,5 +6,17 @@
   width:840px;
   top: 20%;
   left: 30%;
+  z-index: 10;
+}
 
+.readme-copy {
+  height: 430px;
+  width: 650px;
+  text-align: left;
+  color:white;
+  margin-left: 175px;
+  margin-top: 70px;
+  font-size: 10px;
+  line-height: 15px;
+  font-family: 'Roboto Mono', monospace;
 }

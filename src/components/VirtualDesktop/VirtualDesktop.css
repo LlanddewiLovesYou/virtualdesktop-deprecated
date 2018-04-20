@@ -1,5 +1,11 @@
+.glados-test {
+  height: 300px;
+  width: 1000px
+}
+
 .desktop-background {
   height: 100vh;
+  /* height: auto; */
   width: 100vw;
   background-image: url('../../assets/desktop.png');
   background-repeat: no-repeat;
@@ -31,6 +37,12 @@
   top: 150px
 }
 
+.mackcali-container {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
 #readme-icon {
   position: absolute;
   left: 150px;
@@ -57,4 +69,36 @@
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
+}
+
+#jpg-icon {
+  position: absolute;
+
+  left: 80%;
+}
+
+#fiddle-icon {
+  position: absolute;
+  left: 80%;
+  top: 150px;
+}
+
+.photo-container {
+  position: absolute;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  top: 200px;
+  right: 100px;
+  z-index: 10;
+  /* width:auto; */
+}
+
+.photobar {
+  width: 100%
+}
+
+.headshot {
+  width: 100%
+
 }

@@ -16,7 +16,7 @@
 }
 
 .div--filename {
-  min-width: 80px;
+  min-width: 90px;
   width: auto;
   background-color: lightblue;
   border-radius: 10px;
@@ -27,6 +27,7 @@
   padding-left: 3px;
   padding-right: 3px;
   text-decoration: none;
+  word-wrap: break-word;
 }
 
 /* .default-position {

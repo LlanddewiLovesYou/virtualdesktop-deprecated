@@ -7,7 +7,9 @@ export default class ReadMe extends React.Component {
       <div>
         <div className='readme-container'>
           <div className='close-button' onClick={this.props.close}></div>
-          HEY HERE I AM!
+          <div className='readme-copy'>
+            **README**<br/>{this.props.copy}
+          </div>
         </div>
       </div>
     );

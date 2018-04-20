@@ -14,7 +14,7 @@ export default class YayQuery extends React.Component {
         <a id='yayquery-1' href='https://github.com/LlanddewiLovesYou/YayQuery' target='_blank'>
           <Icon fileName='.git' img={folder}/>
         </a>
-        <div id='yayquery-2' onClick=''>
+        <div id='yayquery-2' onClick={this.props.open}>
           <Icon  fileName='README' img={markdown}/>
         </div>
       </div>

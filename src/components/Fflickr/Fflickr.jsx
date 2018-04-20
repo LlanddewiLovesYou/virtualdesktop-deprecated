@@ -16,7 +16,7 @@ export default class Fflickr extends React.Component {
         <a id='fflickr-2' href='https://fflickr.herokuapp.com/' target='_blank'>
           <Icon fileName='Fflickr.com' img={chrome}/>
         </a>
-        <div id='fflickr-3' onClick=''>
+        <div id='fflickr-3' onClick={this.props.open}>
           <Icon  fileName='README' img={markdown}/>
         </div>
       </div>

@@ -14,13 +14,19 @@
 
 }
 
+#mcwindow {
+  top: 30%;
+  left: 30%;
+}
+
 .close-button {
-  position: relative;
+  position: absolute;
   height: 15px;
   width: 15px;
-  top: 3px;
+  top: 4px;
   left: 6px;
-  filter:opacity(.5);
+  filter: opacity(.5);
+  color: red
 }
 
 .close-button:hover {
@@ -29,14 +35,14 @@
 
 .window-title {
   position: relative;
-  width: 200px;
-  margin: none;
-  z-index: 10;
-  color:black;
-  font-family: 'Arimo', sans-serif;
-  top: -11px;
-  left: 310px;
-  /* background-color: white; */
+width: fit-content;
+margin: none;
+z-index: 10;
+color: black;
+font-family: 'Arimo', sans-serif;
+top: 3px;
+left: 357px;
+/* background-color: white; */
 }
 
 #first-fflickr {

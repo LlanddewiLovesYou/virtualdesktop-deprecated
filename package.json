@@ -1,8 +1,8 @@
 {
-  "name": "apperture-academy",
+  "name": "VirtualDesktop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://LlanddewiLovesYou.github.io/VirtualDesktop",
+  "homepage": "http://LlanddewiLovesYou.github.io/virtualdesktop",
   "devDependancies": {
     "gh-pages": "^1.0.0"
   },

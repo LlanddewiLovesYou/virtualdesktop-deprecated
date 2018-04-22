@@ -179,7 +179,7 @@ export default class VirtualDesktop extends React.Component {
             copy={[
               <div>
                 <p>
-                  Fflickr is an image sharing and hosting app which emulates the
+                  Fflickr is a full-stack image sharing and hosting app which emulates the
                   core funtionality of Yahoo's Flickr.
                 </p>
                 <p>
@@ -187,12 +187,12 @@ export default class VirtualDesktop extends React.Component {
                   them into albums.
                 </p>
                 <p>
-                  It is built with Rails serving PostgreSQL on the backend, and React
-                  and Redux on the front end.
+                  It is built with Rails, utilizing PostgreSQL and serving a restful JSON API
+                  on the backend, and React with a normalized Redux state on the front end.
                 </p>
                 <p>
                   Images are hosted on AWS which is managed through use of the Ruby
-                  PaperClip Gem. Images can be uploaded using drag-and-drop through
+                  Paperclip Gem. Images can be uploaded using drag-and-drop through
                   use of the Dropzone JavaScript library.
                 </p>
                 <p>
@@ -276,7 +276,7 @@ export default class VirtualDesktop extends React.Component {
                 </p>
                 <p>
                   You can see it in action by checking out the 'Penultimate Fantasy'
-                  project above, which is written entirely in YayQuery!
+                  project below, which is written entirely in YayQuery!
                 </p>
                 <p>
                   <a href='#'>View full ReadMe on GitHub</a>
@@ -313,9 +313,9 @@ export default class VirtualDesktop extends React.Component {
                   for the Mack-Cali Real Estate Corporation and it's shareholders.
                 </p>
                 <p>
-                  It's built entirely in React, using React-Strap to handle the site's
-                  responsive needs. I crafted several charts and graphs to order
-                  using Chart.js, which uses canvas to render and animate data visually.
+                  It's built entirely in React, and is fully-responsive thanks to BootStrap 4.
+                  I also crafted several charts and graphs to order using Chart.js, which uses
+                  canvas to render and animate data visually when they appear on screen.
                 </p>
                 <p>
                   <a href='#'>View full ReadMe on GitHub</a>

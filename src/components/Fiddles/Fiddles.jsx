@@ -15,7 +15,7 @@ export default class Fflickr extends React.Component {
         <a id='fiddle-1' href='https://jsfiddle.net/LlanddewiLovesYou/fpvktj7o/' target='_blank'>
           <Icon fileName='iTunes API' img={itunes}/>
         </a>
-        <a id='fiddle-2' href='https://jsfiddle.net/LlanddewiLovesYou/cebg1xag/' target='_blank'>
+        <a id='fiddle-2' href='https://jsfiddle.net/LlanddewiLovesYou/owjfuq7d/' target='_blank'>
           <Icon fileName='GitHub API' img={github}/>
         </a>
       </div>

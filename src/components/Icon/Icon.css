@@ -1,7 +1,9 @@
 .div--iconwrapper {
   position: absolute;
-  left: 100px;
-  top: 100px;
+  /* left: 5%;
+  top: 10%; */
+  grid-column: 2;
+  grid-row: 3;
 }
 
 .img--icon {

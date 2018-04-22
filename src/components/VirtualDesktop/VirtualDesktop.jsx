@@ -76,7 +76,7 @@ export default class VirtualDesktop extends React.Component {
   }
 
   render() {
-    console.log(this.state)
+    // console.log(this.state)
 
     return (
       <div className='desktop-background'>
@@ -98,12 +98,12 @@ export default class VirtualDesktop extends React.Component {
           this.state.fiddles ? <OpenWindow
           title='Fiddles'
           close={() => this.closeFile('fiddles')}
-          innerComponent={<Fiddles src={ianresume}/>}
+          innerComponent={<Fiddles />}
           /> : null
 
         }
 
-        <Icon className='default-position' fileName='README' img={markdown} open={() => this.openFile('readme')} />
+        <Icon id='readme-icon' fileName='README' img={markdown} open={() => this.openFile('readme')} />
           {
             this.state.readme ?
             <ReadMe
@@ -112,8 +112,26 @@ export default class VirtualDesktop extends React.Component {
                 <div>
                   <p>&#9835;<u>"Something Better than what you're asking for..."</u> &#9834;</p>
                   <p>
-                    Welcome to my Virtual Desktop. Here is glimpse of what my process
-                    is like and some of the projects I am currently working on.
+                    Welcome to my Virtual Desktop. Here you can get a glimpse of what my process
+                    is like and some of the projects I am currently working/have previously worked on.
+                  </p>
+                  <p>
+                    I'm a full-stack developer working primarily in Rails/React (this
+                    entire site is built in React, btw) with a background in Design and
+                    extensive exerience in Project Managment. Somewhere hidden on this
+                    site is an easter egg which should give you a hint as to my technical
+                    training!
+                  </p>
+                  <p>
+                    I love working creatively as part of team, bouncing ideas around
+                    and coming up with out of the box UI solutions (again, such as this
+                    portfolio site.)
+                  </p>
+                  <p>
+                    When I'm not creatively problem solving, I enjoy a variety of activities
+                    including Olympic-style weight-lifiting, distance running, and all manner
+                    of what I like to call "Nerd Socializing" (i.e. Board Games, table-top RPGS,
+                    video games etc.)
                   </p>
                   <p>
                     I hope you enjoy!
@@ -128,7 +146,7 @@ export default class VirtualDesktop extends React.Component {
               ]}
               /> : null
           }
-        <div id='readme-icon'>
+        <div id='resume-icon'>
           <Icon fileName='Resume' img={msdoc} open={() => this.openFile('resume')} />
         </div>
         {
@@ -236,7 +254,7 @@ export default class VirtualDesktop extends React.Component {
             title='YayQuery.js'
             className='yayquery-container'
             close={() => this.closeFile('yayquery')}
-            innerComponent={<YayQuery open={() => this.openFile('YayQuery')}/>}
+            innerComponent={<YayQuery open={() => this.openFile('yayqueryReadme')}/>}
             /> : null
         }
         {
@@ -250,8 +268,9 @@ export default class VirtualDesktop extends React.Component {
                 </p>
                 <p>
                   YayQuery.js! as the name suggests, is my self-authored
-                  JavaScript library which emulates much of the funtionality
-                  of JQuery.
+                  JavaScript library which emulates much of the functionality
+                  of JQuery including the selection of DOM elements, AJAX requests,
+                   and adding and removing classes and event listeners.
                 </p>
                 <p>
                   You can see it in action by checking out the 'Penultimate Fantasy'
@@ -319,7 +338,7 @@ export default class VirtualDesktop extends React.Component {
           <Icon className='default-position' fileName='GLaDOS.exe' img={executable} open={() => this.openFile('glados')} />
         </div>
         {
-          this.state.glados ? <Glados close={()=> this.closeFile('glados')}/> : null
+          this.state.glados ? <Glados id='glados-window' close={()=> this.closeFile('glados')}/> : null
         }
 
 

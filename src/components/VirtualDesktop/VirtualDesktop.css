@@ -5,36 +5,51 @@
 
 .desktop-background {
   height: 100vh;
-  /* height: auto; */
+  /* height: auot */
   width: 100vw;
   background-image: url('../../assets/desktop.png');
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
   position: relative;
+  display: grid;
+  grid-gap: 50px ;
+  grid-template-columns: 5% 5% 5% 1fr 1fr 1fr 1fr 5% 5% 5%;
+  grid-template-rows:  3% 2% 10% 10% 10% 10% 1fr
+}
+
+#readme-icon {
+  grid-column: 2;
+  grid-row: 3;
 }
 
 #fflickr-icon {
-  position: absolute;
-  top: 150px
+  /* position: absolute;
+  top: 150px */
+  /* grid-column: 2; */
+  grid-row: 3;
 }
 
 #penultimate-icon {
-  position: absolute;
+  /* position: absolute;
   top: 300px;
-  left: -20px;
+  left: 7%; */
+  grid-row: 5
 }
 
 #yayquery-icon {
-  position: absolute;
+  /* position: absolute;
   top: 450px;
-  left: 0px;
+  left: 0px; */
+  grid-row: 4
 }
 
 #mackcali-icon {
-  position: absolute;
+  /* position: absolute;
   left: 150px;
-  top: 150px
+  top: 150px */
+  grid-row: 3;
+  grid-column: 2;
 }
 
 .mackcali-container {
@@ -43,26 +58,40 @@
   left: 30%;
 }
 
-#readme-icon {
-  position: absolute;
-  left: 150px;
+#resume-icon {
+  grid-column: 2;
+  grid-row: 1;
 }
 
 #itunes-icon {
-  position: absolute;
+  /* position: absolute;
   top: 450px;
-  left: 150px;
+  left: 150px; */
+  grid-column: 2;
+  grid-row: 5;
 }
 
 #glados-icon {
-  position: absolute;
+  /* position: absolute;
   top: 300px;
-  left: 150px;
+  left: 150px; */
+  grid-column: 2;
+  grid-row: 4;
+}
+
+#glados-window {
+  grid-column: 4;
+  grid-row: 4;
+
 }
 
 #resume-window {
-  top: 10%;
-  left: 25%;
+  grid-column: 4;
+  grid-row-start: 2;
+  /* grid-row-end: 4; */
+  /* align-self: flex-end; */
+  /* top: 10%;
+  left: 25%; */
   height:740px;
   width: 1020px;
   background-image: url('../../assets/resume.png');
@@ -72,15 +101,19 @@
 }
 
 #jpg-icon {
-  position: absolute;
+  /* position: absolute;
 
-  left: 80%;
+  left: 80%; */
+  grid-column: 8;
 }
 
 #fiddle-icon {
-  position: absolute;
+  /* position: absolute;
   left: 80%;
-  top: 150px;
+  top: 150px; */
+  /* grid-row: 2; */
+  grid-row: 3;
+  grid-column: 8;
 }
 
 .photo-container {

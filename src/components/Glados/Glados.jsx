@@ -81,7 +81,7 @@ export class Glados extends React.Component {
             <button
               id="secbutton"
               className="button--testing"
-              onClick={() => this.setState({ powerOn: false, booting: false, speech: [] })}
+              onClick={this.props.close}
             >
               N
             </button>

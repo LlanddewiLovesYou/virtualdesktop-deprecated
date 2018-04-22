@@ -25,6 +25,8 @@ import ianresume from '../../assets/ianresume420.png';
 import pdf from '../../assets/iandelducaresume3-26-18.pdf'
 import photobar from '../../assets/jpgbar.png'
 import headshot from '../../assets/headshot.png'
+import mail from '../../assets/mail.png'
+import bcard from '../../assets/bcard.png'
 
 
 export default class VirtualDesktop extends React.Component {
@@ -44,6 +46,7 @@ export default class VirtualDesktop extends React.Component {
       mackcaliReadme: false,
       photo: false,
       fiddles: false,
+      contact: false,
     }
     this.openFile = this.openFile.bind(this)
   }
@@ -80,6 +83,21 @@ export default class VirtualDesktop extends React.Component {
 
     return (
       <div className='desktop-background'>
+
+        <div id='contact-icon'>
+          <Icon fileName='contact' img={mail} open={() => this.openFile('contact')}/>
+        </div>
+        {
+          this.state.contact ?
+          <div className='photo-container' id="bcard">
+              <div className='close-button' onClick={() => this.closeFile('contact')}></div>
+              <img className='photobar' src={photobar} />
+            <a href='mailto:ianmdelduca@gmail.com'>
+              <img className='headshot' src={bcard} />
+            </a>
+          </div> : null
+        }
+
         <div id='jpg-icon'>
           <Icon fileName='me.jpg' img={jpg} open={() => this.openFile('photo')} />
         </div>

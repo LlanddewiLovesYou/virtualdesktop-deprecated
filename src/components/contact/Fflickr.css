@@ -1,0 +1,35 @@
+#fflickr-1  {
+  position: absolute;
+    top: -40px;
+  left: 160px;
+  grid-column: 3;
+  grid-row: 2;
+  /* display: none; */
+}
+
+#fflickr-2  {
+  grid-column: 3;
+  grid-row: 3;
+  position: absolute;
+  top: -40px;
+  left: 290px;
+  /* display: none; */
+
+}
+
+#fflickr-3  {
+  grid-column: 4;
+  position: absolute;
+  top: -40px;
+  left: 425px;
+
+}
+.test {
+  position: absolute;
+    top: 115px;
+    left: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+
+}

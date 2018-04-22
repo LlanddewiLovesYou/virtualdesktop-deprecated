@@ -116,22 +116,34 @@
   grid-column: 8;
 }
 
+#contact-icon {
+  grid-column: 8;
+  grid-row: 4
+}
+
 .photo-container {
   position: absolute;
   width: 25vw;
   display: flex;
   flex-direction: column;
-  top: 200px;
-  right: 100px;
   z-index: 10;
+  grid-row: 4;
+  grid-column: 7;
   /* width:auto; */
 }
 
 .photobar {
-  width: 100%
+  width: 100%;
+  min-height: 15px
 }
 
 .headshot {
   width: 100%
 
+}
+
+#bcard {
+  grid-row: 2;
+  grid-column: 4;
+  width: 17vw;
 }

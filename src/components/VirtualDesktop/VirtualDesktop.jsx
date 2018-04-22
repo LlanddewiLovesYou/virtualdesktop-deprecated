@@ -114,6 +114,8 @@ export default class VirtualDesktop extends React.Component {
                   <p>
                     Welcome to my Virtual Desktop. Here you can get a glimpse of what my process
                     is like and some of the projects I am currently working/have previously worked on.
+                    Just in case it's not clear, you can close any window by clicking it close button
+                    in the top left corner, just like on any local desktop.
                   </p>
                   <p>
                     I'm a full-stack developer working primarily in Rails/React (this

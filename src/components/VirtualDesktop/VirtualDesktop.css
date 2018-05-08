@@ -133,8 +133,13 @@
 }
 
 .photobar {
-  width: 100%;
-  min-height: 15px
+  /* width: 100%; */
+max-height: 25px;
+border-radius: 5px 5px 0px 0px;
+overflow-x: hidden;
+object-fit: cover;
+object-position: 0px
+
 }
 
 .headshot {
@@ -146,4 +151,5 @@
   grid-row: 2;
   grid-column: 4;
   width: 17vw;
+  border-radius: 5px;
 }

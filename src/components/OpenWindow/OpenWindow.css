@@ -8,6 +8,7 @@
   position: absolute;
   background-image: url('../../assets/finder-window.png');
   background-size: cover;
+  z-index: 2;
 }
 
 .int-window-container {

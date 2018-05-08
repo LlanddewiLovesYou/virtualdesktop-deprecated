@@ -21,8 +21,8 @@ import markdown from '../../assets/markdown.png'
 import jpg from '../../assets/jpg.png'
 import msdoc from '../../assets/msdoc.png'
 import resume from '../../assets/resume.png'
-import ianresume from '../../assets/ianresume420.png';
-import pdf from '../../assets/iandelducaresume3-26-18.pdf'
+import ianresume from '../../assets/iandelducaresume5-10-18.png';
+import pdf from '../../assets/iandelducaresume5-10-18.pdf'
 import photobar from '../../assets/jpgbar.png'
 import headshot from '../../assets/headshot.png'
 import mail from '../../assets/mail.png'

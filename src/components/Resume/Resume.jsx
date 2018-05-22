@@ -1,5 +1,5 @@
 import React, {PropTypes} from 'react';
-import pdf from '../../assets/iandelducaresume5-10-18.pdf';
+import pdf from '../../assets/IanDelDucaParse5-15-18.pdf';
 
 import './Resume.css'
 
